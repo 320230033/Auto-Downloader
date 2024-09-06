@@ -12,8 +12,8 @@ import time
 import requests
 
 # Specify the path to your WebDriver
-driver_path = 'D:/Games New/chromedriver-win64/chromedriver.exe'
-download_folder = 'C:/Users/Dell/Downloads/Arduino_Files'
+driver_path = 'C:/chromedriver.exe'
+download_folder = 'C:/Arduino_Files'
 
 # Create the download folder if it doesn't exist
 if not os.path.exists(download_folder):
